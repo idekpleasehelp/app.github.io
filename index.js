@@ -1,6 +1,6 @@
-function playaudio(audioName, loop) {
+function playaudio(audioName) {
     let audio = new Audio(audioName)
-    audio.loop = true
+    html5: true
     audio.play()
 }
-playaudio("audio.wav", true)
+playaudio("audio.wav")
